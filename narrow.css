@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*narrow style sheet for Explore California */
+
+html, body {
+	margin: 5px;
+	padding: 5px;
+	color: #9198a0;
+	background-color: #272c32;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, address, blockquote, div, ul, li {
+	font-size: 90%;
+}
+
+h1 {
+	color: White;
+}
+
+h2 {
+	color: white;
+	text-decoration:underline;
+}
+
+a{
+	color: #336699;
+	text-decoration:none;
+}
+
+img {
+    display: none;
+}
+
+/* tables */
+
+.titleColumn {
+	width: 150px;
+	vertical-align: top;
+	color: #9198a0;
+}
+.contentColumn {
+	vertical-align: top;
+	line-height: 150%;
+}

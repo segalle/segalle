@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/* general design */
+
+body {
+	text-align:left;
+	font: 100% Tahoma, "Tahoma";
+	color: #9198a0;
+	background-color: #272c32;
+	margin-top: 25px;
+}
+
+h1 {
+	color: White;
+	font: 36px Impact, "Impact";
+}
+
+h2 {
+	color: white;
+	text-decoration:underline;
+}
+
+a{
+	color: #336699;
+	text-decoration:none;
+}
+ a:hover {
+ 	color: white;
+}
+
+
+/* menu link */
+
+#header {
+	width: 192px;
+	height: 237px;
+	position: absolute;
+	top: 25px;
+	left: 35px;
+	background: url(images/erez.jpg) no-repeat;
+}
+
+#navigation {
+	float: left;
+	width: 272px;
+	margin-top: 233px;
+}
+#mainContent {
+	padding-right: 25px;
+	float: left;
+	width: 608px;
+	margin-bottom: 45px;
+}
+
+.sideMnu:hover {
+	color: #336699;
+}
+
+/* tables */
+
+.titleColumn {
+	width: 150px;
+	vertical-align: top;
+	color: #9198a0;
+}
+.contentColumn {
+	vertical-align: top;
+	line-height: 150%;
+}
+	
+.quote {
+	font-style: italic;
+}
+
+.quotee {
+	color = white;
+}
